@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffb6c1, #ffe4e1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+img {
+    width: 260px;
+    border-radius: 15px;
+    margin: 15px 0;
+}
+
+.buttons button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 8px;
+}
+
+#yesBtn {
+    background-color: #ff4d6d;
+    color: white;
+    transition: transform 0.3s;
+}
+
+#noBtn {
+    background-color: #ccc;
+}
